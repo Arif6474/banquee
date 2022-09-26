@@ -1,9 +1,10 @@
 import React from 'react';
+import Features from '../Features/Features';
 
 const Home = () => {
     return (
         <div>
-            <h1>This is a Home page</h1>
+            <Features/>
         </div>
     );
 };

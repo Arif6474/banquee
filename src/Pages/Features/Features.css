@@ -1,0 +1,38 @@
+.features {
+  width: 800px;
+  padding-top: 128px;
+}
+.features-container {
+  background-color: #e8f2ee;
+}
+.features-title {
+  height: 24px;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1a191e;
+}
+.features-headline {
+  height: 88px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #1a191e;
+}
+.features-description {
+  height: 72px;
+ 
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: center;
+  color: #1a191e;
+}
