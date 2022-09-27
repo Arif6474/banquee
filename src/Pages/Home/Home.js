@@ -1,6 +1,7 @@
 import React from 'react';
+import Cards from '../Cards/Cards';
 import Features from '../Features/Features';
-import FeaturesCard from '../Features/FeaturesCard';
+
 import Transaction from '../Transaction/Transaction';
 
 const Home = () => {
@@ -8,7 +9,8 @@ const Home = () => {
         <div>
             <Features/>
             <Transaction/>
-            <FeaturesCard/>
+            <Cards/>
+        
         </div>
     );
 };
