@@ -94,11 +94,11 @@ const Transaction = () => {
               />
             </svg>
           </div>
-          <div className="text-left text-lg font-semibold mt-4 mb-2">
-            <span className="mr-5">1234</span>
-            <span className="mr-5">5678</span>{" "}
-            <span className="mr-5">9000</span> 
-            <span className="ml-1">0000</span> 
+          <div className="text-left text-xl font-semibold mt-4 mb-2 font-mono">
+            <span className="mr-3">1234</span>
+            <span className="mr-3">5678</span>{" "}
+            <span className="mr-3">9000</span>
+            <span className="ml-1">0000</span>
           </div>
           <div className="flex  items-center gap-6 ">
             <div>

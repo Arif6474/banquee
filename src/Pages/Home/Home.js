@@ -1,4 +1,6 @@
 import React from 'react';
+import Bank from '../Bank/Bank';
+import BankCards from '../Bank/BankCards';
 import Cards from '../Cards/Cards';
 import Features from '../Features/Features';
 
@@ -10,6 +12,8 @@ const Home = () => {
             <Features/>
             <Transaction/>
             <Cards/>
+            <Bank/>
+            <BankCards/>
         
         </div>
     );

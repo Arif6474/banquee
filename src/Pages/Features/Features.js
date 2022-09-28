@@ -39,10 +39,10 @@ const Features = () => {
         <div className=" w-80  overflow-hidden ">
           <div className="card-body  mt-52 text-white -my-8 rotate-90 bg-neutral rounded-xl ">
           <h2 className="card-title">banquee.</h2>
-            <h1 className="text-left text-xl font-bold my-4">
-              <span className="mr-5">1234</span>
-              <span className="mr-5">5678</span>{" "}
-              <span className="mr-5">9000</span> 0000
+            <h1 className="text-left text-xl font-bold my-4 font-mono">
+              <span className="mr-3">1234</span>
+              <span className="mr-3">5678</span>{" "}
+              <span className="mr-3">9000</span> <span className="">9000</span>
             </h1>
             <div className="card-actions justify-start gap-4 ">
               <div>
@@ -59,10 +59,10 @@ const Features = () => {
         <div className=" w-80 overflow-hidden">
           <div className="card-body   mt-40 text-white -my-8 rotate-90 bg-slate-700 rounded-xl ">
           <h2 className="card-title">banquee.</h2>
-            <h1 className="text-left text-xl font-bold my-4">
-              <span className="mr-5">1234</span>
-              <span className="mr-5">5678</span>{" "}
-              <span className="mr-5">9000</span> 0000
+            <h1 className="text-left text-xl font-bold my-4 font-mono">
+              <span className="mr-3">1234</span>
+              <span className="mr-3">5678</span>{" "}
+              <span className="mr-3">9000</span> <span className="">9000</span>
             </h1>
             <div className="card-actions justify-start gap-4 ">
               <div>
@@ -79,10 +79,10 @@ const Features = () => {
         <div className=" w-80 overflow-hidden">
           <div className="card-body mt-20  text-white -my-8 rotate-90 bg-primary rounded-xl ">
             <h2 className="card-title">banquee.</h2>
-            <h1 className="text-left text-xl font-bold my-4">
-              <span className="mr-5">1234</span>
-              <span className="mr-5">5678</span>{" "}
-              <span className="mr-5">9000</span> 0000
+            <h1 className="text-left text-xl font-bold my-4 font-mono">
+              <span className="mr-3">1234</span>
+              <span className="mr-3">5678</span>{" "}
+              <span className="mr-3">9000</span> <span className="">9000</span>
             </h1>
             <div className="card-actions justify-start gap-4 ">
               <div>
@@ -99,10 +99,10 @@ const Features = () => {
         <div className=" w-80   overflow-hidden">
           <div className="card-body mt-40   text-white -my-8 rotate-90 bg-slate-700 rounded-xl ">
           <h2 className="card-title">banquee.</h2>
-            <h1 className="text-left text-xl font-bold my-4">
-              <span className="mr-5">1234</span>
-              <span className="mr-5">5678</span>{" "}
-              <span className="mr-5">9000</span> 0000
+            <h1 className="text-left text-xl font-bold my-4 font-mono">
+              <span className="mr-3">1234</span>
+              <span className="mr-3">5678</span>{" "}
+              <span className="mr-3">9000</span> <span className="">9000</span>
             </h1>
             <div className="card-actions justify-start gap-4 ">
               <div>
@@ -119,10 +119,10 @@ const Features = () => {
         <div className=" w-80 overflow-hidden ">
           <div className="card-body mt-52 text-white -my-8 rotate-90 bg-neutral rounded-xl ">
           <h2 className="card-title">banquee.</h2>
-            <h1 className="text-left text-xl font-bold my-4">
-              <span className="mr-5">1234</span>
-              <span className="mr-5">5678</span>{" "}
-              <span className="mr-5">9000</span> 0000
+            <h1 className="text-left text-xl font-bold my-4 font-mono">
+              <span className="mr-3">1234</span>
+              <span className="mr-3">5678</span>{" "}
+              <span className="mr-3">9000</span> <span className="">9000</span>
             </h1>
             <div className="card-actions justify-start gap-4 ">
               <div>
