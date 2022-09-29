@@ -1,4 +1,5 @@
 import React from 'react';
+import Account from '../Account/Account';
 import Bank from '../Bank/Bank';
 import BankCards from '../Bank/BankCards';
 import Cards from '../Cards/Cards';
@@ -14,6 +15,7 @@ const Home = () => {
             <Cards/>
             <Bank/>
             <BankCards/>
+            <Account/>
         
         </div>
     );
