@@ -5,7 +5,7 @@ import { RiQuestionLine } from "react-icons/ri";
 const Bank = () => {
   return (
     <div className="pt-20 ">
-      <div className=" flex justify-center items-center flex-col">
+      <div className=" flex lg:justify-center items-center flex-col">
         <p className="font-semibold text-5xl">All in one bank. Really.</p>
         <p className=" font-medium w-96 p-4">
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo

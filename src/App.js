@@ -1,6 +1,7 @@
 
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './Pages/Footer/Footer';
 import Header from './Pages/Header/Header';
 import Home from './Pages/Home/Home';
 import Login from './Pages/Login/Login';
@@ -16,6 +17,7 @@ function App() {
         <Route path="register" element={<Register />} />
         
       </Routes>
+      <Footer/>
     </div>
   );
 }
