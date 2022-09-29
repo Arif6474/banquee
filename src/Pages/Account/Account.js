@@ -2,7 +2,7 @@ import React from 'react';
 
 const Account = () => {
     return (
-        <div className="mt-16">
+        <div className="mt-20">
              <div className=" flex lg:justify-center items-center flex-col">
         <p className="font-semibold ">Accounts</p>
         <p className="font-semibold text-4xl">Choose your card.</p>

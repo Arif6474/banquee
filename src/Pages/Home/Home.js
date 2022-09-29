@@ -4,6 +4,7 @@ import Bank from '../Bank/Bank';
 import BankCards from '../Bank/BankCards';
 import Cards from '../Cards/Cards';
 import Features from '../Features/Features';
+import Help from '../Help/Help';
 
 import Transaction from '../Transaction/Transaction';
 
@@ -16,6 +17,7 @@ const Home = () => {
             <Bank/>
             <BankCards/>
             <Account/>
+            <Help/>
         
         </div>
     );

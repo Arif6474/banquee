@@ -8,7 +8,7 @@ import { BiInfoCircle, BiLeftArrowAlt, BiLockAlt } from "react-icons/bi";
 
 const Cards = () => {
   return (
-    <div className="container flex flex-row justify-center items-center pt-20 bg-white">
+    <div className="container flex flex-row justify-center items-center mt-24 bg-white">
       <div className="flex flex-col mx-auto w-2/6">
         <p className="text-sans font-semibold mt-8 text-start">Cards</p>
         <h1 className="text-sans font-semibold text-5xl text-start mt-2">
@@ -225,8 +225,7 @@ const Cards = () => {
               <p className="text-sm">09/28</p>
             </div>
             <div className="font-bold flex pt-1 ml-4">
-              {/* {" "}
-              <i>VISA</i>{" "} */}
+             
               <p className="absolute  bg-slate-300 rounded-full p-3"></p>
               <p className=" relative ml-4 bg-slate-200 rounded-full p-3"></p>
               
