@@ -96,7 +96,7 @@ const Account = () => {
             </div>
             <div data-aos="flip-right"
         data-aos-easing="linear"
-        data-aos-duration="1500" className=" p-5 text-white w-70  bg-slate-700  my-4 rounded-xl ">
+        data-aos-duration="1500" style={{backgroundColor: "rgba(72, 85, 99, 1) rgba(41, 50, 60, 1)"}} className=" p-5 text-white w-70   my-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -162,7 +162,7 @@ const Account = () => {
             </div>
             <div data-aos="flip-up"
         data-aos-easing="linear"
-        data-aos-duration="1500" className=" p-5 text-white w-70 bg-neutral my-4 rounded-xl ">
+        data-aos-duration="1500" style={{backgroundColor: "rgba(227, 199, 158, 1) rgba(214, 174, 123, 1)"}} className=" p-5 text-white w-70 my-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg

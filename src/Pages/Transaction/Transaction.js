@@ -115,7 +115,7 @@ const Transaction = () => {
           data-aos="flip-up"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          className=" p-5 text-white  bg-slate-700 mt-4 rounded-xl "
+          className=" p-5 text-white   mt-4 rounded-xl " style={{backgroundColor: "rgba(72, 85, 99, 1) rgba(41, 50, 60, 1)"}}
         >
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>

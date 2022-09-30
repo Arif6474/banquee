@@ -55,8 +55,10 @@ const Help = () => {
           </div>
         </div>
 
-        <div className="flex gap-2 justify-start items-center">
-          <p className=" font-medium text-primary">Support</p>
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1800" className="flex gap-2 justify-start items-center">
+          <p  className=" font-medium text-primary">Support</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
