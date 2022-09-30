@@ -5,18 +5,26 @@ import { RiQuestionLine } from "react-icons/ri";
 const Bank = () => {
   return (
     <div className="mt-24 ">
-      <div className=" flex lg:justify-center items-center flex-col">
-        <p className="font-semibold text-5xl">All in one bank. Really.</p>
-        <p className=" font-medium w-96 p-4">
+      <div className=" flex justify-center items-center flex-col">
+        <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-semibold text-5xl">All in one bank. Really.</p>
+        <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className=" font-medium w-96 p-4">
           Senectus et netus et malesuada fames ac turpis. Sagittis vitae et leo
           duis ut diam.
         </p>
       </div>
-      <div className="flex justify-center gap-8 mt-12 items-center flex-row overflow-hidden ">
-        <div className="rounded-xl px-8 pt-8 bg-secondary w-2/6 -mb-20 ">
+      <div className="flex justify-center gap-40 mt-12 items-center flex-row overflow-hidden ">
+        <div className="rounded-xl px-8 pt-8 bg-secondary w-96 -mb-20 ">
           <div className="flex justify-center items-center flex-col">
-            <p className="font-semibold text-2xl">Statistics</p>
-            <p className="text-sans opacity-80 mt-2 font-medium w-80">
+            <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-semibold text-2xl">Statistics</p>
+            <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans opacity-80 mt-2 font-medium w-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
           </div>
@@ -24,7 +32,9 @@ const Bank = () => {
             className=" border-slate-800 mx-auto p-6 mt-8 bg-white"
             style={{ borderRadius: "45px", border: "6px solid" }}
           >
-            <div className="flex  justify-between items-center mb-6 gap-4">
+            <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex  justify-between items-center mb-6 gap-4">
               <p className="text-2xl">
                 <BiLeftArrowAlt />
               </p>
@@ -33,24 +43,26 @@ const Bank = () => {
                 <RiQuestionLine />
               </p>
             </div>
-            <div className="flex items-center justify-between">
-              <div className="bg-secondary px-6 space-y-1 py-2 rounded-xl">
+            <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex items-center justify-between">
+              <div className="bg-secondary p-2 space-y-1  rounded-xl">
                 <p className="font-medium">Earnings</p>
                 <p className="font-medium text-xl">$85.222,00</p>
               </div>
-              <div className="bg-secondary px-6 space-y-1 py-2 rounded-xl">
+              <div className="bg-secondary p-2 space-y-1  rounded-xl">
                 <p className="font-medium">Expenses</p>
                 <p className="font-medium text-xl">- $52.150,50</p>
               </div>
             </div>
             <div className="flex items-center justify-between pb-8 my-12">
-              <div className="flex items-center gap-4">
-                <div className="flex items-center ">
-                  <p className=" bg-primary p-2 rounded-full mr-2"></p>
+              <div className="flex items-center gap-2">
+                <div className="flex items-center justify-start gap-2">
+                  <p className=" bg-primary rounded-full p-2"></p>
                   <p className="font-medium ">Earning</p>
                 </div>
-                <div className="flex items-center">
-                  <p className=" bg-red-200 p-2 rounded-full mr-2"></p>
+                <div className="flex items-center justify-start gap-2">
+                  <p className=" bg-red-200 p-2 rounded-full"></p>
                   <p className="font-medium ">Expense</p>
                 </div>
               </div>
@@ -74,16 +86,20 @@ const Bank = () => {
             </div>
           </div>
         </div>
-        <div className="rounded-xl px-8 pt-10 bg-secondary w-2/6 -mb-10 ">
+        <div className="rounded-xl px-8 pt-10 bg-secondary w-96 h-[476px] -mb-16 ">
           <div className="flex justify-center items-center pb-16 flex-col">
-            <p className="font-semibold text-2xl">Cards</p>
-            <p className="text-sans opacity-80 mt-2 font-medium w-80">
+            <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-semibold text-2xl">Cards</p>
+            <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans opacity-80 mt-2 font-medium w-80">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.
             </p>
           </div>
           
-          <div className="grid grid-cols-3 justify-items-center gap-4 mt-24  ">
-          <div className=" p-5 -ml-20 text-white w-40 h-24  bg-slate-700 rotate-90  rounded-t-xl ">
+          <div className="grid grid-cols-3 justify-items-center gap-4 mt-20 pt-8 ">
+          <div className=" p-5 mr-16 text-white w-50 h-24 mt-12 bg-slate-700 rotate-90  rounded-t-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -101,11 +117,11 @@ const Bank = () => {
               />
             </svg>
           </div>
-          <div className="text-left text-xl font-semibold mt-4 mb-2 font-mono">
+          <div className="text-start text-xl font-semibold my-4 font-mono">
             <span className="mr-3">1234</span>
             <span className="mr-3">5678</span>{" "}
-            <span className="mr-3">9000</span>
-            <span className="ml-1">0000</span>
+            <span className="mr-">9000</span>
+            {/* <span className="ml-1">0000</span> */}
           </div>
           {/* <div className="flex  items-center gap-6 ">
             <div>
@@ -124,7 +140,7 @@ const Bank = () => {
             </h1>
           </div> */}
         </div>
-        <div className=" p-5 text-white w-80 h-40 bg-primary rotate-90 rounded-xl ">
+        <div className=" p-5  text-white w-80 h-40 bg-primary rotate-90 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -150,13 +166,13 @@ const Bank = () => {
           </div>
           <div className="flex  items-center gap-6 ">
             <div>
-              <small className="text-start text-xs text-slate-300">
+              <small className="text-start text-xs text-slate-100">
                 Card Holder
               </small>
               <p className="text-sm">John Doe</p>
             </div>
             <div>
-              <small className=" text-xs text-slate-300">Expiry Date</small>
+              <small className=" text-xs text-slate-100">Expiry Date</small>
               <p className="text-sm">09/28</p>
             </div>
             <h1 className="font-bold ml-4 ">
@@ -165,7 +181,7 @@ const Bank = () => {
             </h1>
           </div>
         </div>
-        <div className="  p-5 text-white -mr-20  w-46 h-24 bg-neutral rotate-90  rounded-b-xl ">
+        <div className="  p-5 text-white ml-16  w-48 h-24 bg-neutral rotate-90 mt-2 rounded-b-xl ">
           {/* <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -183,22 +199,22 @@ const Bank = () => {
               />
             </svg>
           </div> */}
-          <div className="text-left text-xl font-semibold  font-mono">
+          <div className="text-start text-xl font-semibold  font-mono">
             <span className="mr-3">1234</span>
             <span className="mr-3">5678</span>{" "}
             {/* <span className="mr-3">9000</span>
             <span className="ml-1">0000</span> */}
           </div>
           <div className="flex  items-center gap-3 ">
-            <div>
+          <div>
               <small className="text-start text-xs text-slate-100">
                 Card Holder
               </small>
-              <p className="text-xs">John Doe</p>
+              <p className="text-sm">John Doe</p>
             </div>
             <div>
               <small className=" text-xs text-slate-100">Expiry Date</small>
-              <p className="text-xs">09/28</p>
+              <p className="text-sm">09/28</p>
             </div>
             {/* <h1 className="font-bold ml-4 ">
               {" "}

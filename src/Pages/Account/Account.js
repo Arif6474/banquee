@@ -3,26 +3,36 @@ import React from 'react';
 const Account = () => {
     return (
         <div className="mt-20">
-             <div className=" flex lg:justify-center items-center flex-col">
+             <div className=" flex justify-center items-center flex-col">
         <p className="font-semibold ">Accounts</p>
-        <p className="font-semibold text-4xl">Choose your card.</p>
-        <p className=" font-medium w-80 text-sm p-4">
+        <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-semibold text-4xl">Choose your card.</p>
+        <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className=" font-medium w-80 text-sm p-4">
           Senectus et netus et malesuada ac turpis. Sagittis vitae et leo
           duis ut diam.
         </p>
       </div>
       <div className="mt-12 flex justify-center gap-8  items-center flex-row mx-48 p-4">
-        <div>
+        <div className="w-80">
             <div className="flex justify-center items-center gap-2">
                 <p className="font-bold text-lg">Basic <span className="p-1 rounded-md text-xs bg-secondary text-primary">Popular</span></p>
                
             </div>
             <div className="flex justify-center items-center py-8 flex-col">
-                <p className="font-bold text-4xl">Free</p>
-                <p className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-bold text-4xl">Free</p>
+                <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
             </div>
-            <div className=" p-5 text-white  bg-primary my-4 rounded-xl ">
+            <div data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className=" p-5 text-white w-70 bg-primary my-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -70,17 +80,23 @@ const Account = () => {
             </div>
            
         </div>
-        <div>
+        <div className="w-80">
             <div className="flex justify-center items-center gap-2">
-                <p className="font-bold text-lg">Premium</p>
+                <p  className="font-bold text-lg">Premium</p>
                
             </div>
             <div className="flex justify-center items-center py-8 flex-col">
-                <p className="font-bold text-4xl">$5 <span className="text-xs opacity-80">per month</span></p>
-                <p className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-bold text-4xl">$5 <span className="text-xs opacity-80">per month</span></p>
+                <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
             </div>
-            <div className=" p-5 text-white  bg-slate-700  my-4 rounded-xl ">
+            <div data-aos="flip-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className=" p-5 text-white w-70  bg-slate-700  my-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -128,17 +144,25 @@ const Account = () => {
 
             </div>
         </div>
-        <div>
+        <div className="w-80">
             <div className="flex justify-center items-center gap-2">
-                <p className="font-bold text-lg">Gold</p>
+                <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-bold text-lg">Gold</p>
                
             </div>
             <div className="flex justify-center items-center py-8 flex-col">
-            <p className="font-bold text-4xl">$10 <span className="text-xs opacity-80">per month</span></p>
-                <p className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-bold text-4xl">$10 <span className="text-xs opacity-80">per month</span></p>
+                <p data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans opacity-80 mt-4  font-medium">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 
             </div>
-            <div className=" p-5 text-white  bg-neutral my-4 rounded-xl ">
+            <div data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className=" p-5 text-white w-70 bg-neutral my-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg

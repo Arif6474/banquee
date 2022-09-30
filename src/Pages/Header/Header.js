@@ -3,8 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div>
-        <div className="navbar lg:px-16   bg-white">
+       
+        <div 
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"  className="navbar lg:px-16 sticky top-0  bg-white">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -68,7 +71,7 @@ const Header = () => {
     <Link to="/register" className="btn btn-primary btn-sm text-white">Open account</Link>
   </div>
 </div>
-        </div>
+   
     );
 };
 

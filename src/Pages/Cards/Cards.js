@@ -1,5 +1,5 @@
 import React from "react";
-import { FaAmazon, FaApple, FaGoogle, FaTwitter } from "react-icons/fa";
+
 import { RiHomeLine, RiQuestionLine } from "react-icons/ri";
 import { FiUser } from "react-icons/fi";
 import { AiOutlineCreditCard, AiOutlineSetting } from "react-icons/ai";
@@ -8,10 +8,12 @@ import { BiInfoCircle, BiLeftArrowAlt, BiLockAlt } from "react-icons/bi";
 
 const Cards = () => {
   return (
-    <div className="container flex flex-row justify-center items-center mt-24 bg-white">
-      <div className="flex flex-col mx-auto w-2/6">
+    <div className=" flex flex-row justify-center gap-32 items-center mt-24 bg-white">
+      <div className="flex flex-col w-[450px]">
         <p className="text-sans font-semibold mt-8 text-start">Cards</p>
-        <h1 className="text-sans font-semibold text-5xl text-start mt-2">
+        <h1 data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="text-sans font-semibold text-5xl text-start mt-2">
           Manage <br /> your cards
         </h1>
         <p className="text-sans text-start opacity-90 mt-6 font-semibold">
@@ -20,7 +22,9 @@ const Cards = () => {
           veniam consequat sunt nostrud amet.
         </p>
         <div className="text-start mt-4">
-          <div className="flex text-sans font-semibold gap-2 my-1 items-center">
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1200" className="flex text-sans font-semibold gap-2 my-1 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -37,7 +41,9 @@ const Cards = () => {
             </svg>
             <p>Malesuada Ipsum</p>
           </div>
-          <div className="flex text-sans font-semibold gap-2  my-1 items-center">
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex text-sans font-semibold gap-2  my-1 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -54,7 +60,9 @@ const Cards = () => {
             </svg>
             <p>Vestibulum</p>
           </div>
-          <div className="flex text-sans font-semibold gap-2  my-1 items-center">
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1800" className="flex text-sans font-semibold gap-2  my-1 items-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -74,16 +82,20 @@ const Cards = () => {
         </div>
       </div>
       <div
-        className=" border-slate-800 mx-auto p-6"
+        className=" border-slate-800  p-6"
         style={{ borderRadius: "45px", border: "6px solid" }}
       >
-        <div className="flex  justify-between items-center mb-6 gap-4">
+        <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex  justify-between items-center mb-6 gap-4">
             <p className="text-2xl"><BiLeftArrowAlt/></p>
           <p className="font-semibold ">Cards</p>
           <p className=" text-2xl"><RiQuestionLine/></p>
         </div>
 
-        <div className=" p-5 text-white  bg-slate-700 mt-4 rounded-xl ">
+        <div data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1800" className=" p-5 text-white  bg-slate-700 mt-4 rounded-xl ">
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -235,7 +247,9 @@ const Cards = () => {
            
           </div>
         <div>
-          <div className="flex justify-around mt-20 bg-white">
+          <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex justify-around mt-20 bg-white">
             <div className="  flex flex-col justify-center items-center">
               <RiHomeLine />
               <p className="font-semibold text-sm">Home</p>

@@ -4,8 +4,11 @@ import "./Features.css";
 
 const Features = () => {
   return (
-    <div className="features-container overflow-hidden ">
-      <div className="features mx-auto mb-16">
+    <div
+     className="features-container overflow-hidden ">
+      <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="features mx-auto mb-16">
         <h1 className="features-title font-sans">Features</h1>
         <h1 className="features-headline font-sans">ALL in one card.</h1>
         <p className="features-description font-sans ">

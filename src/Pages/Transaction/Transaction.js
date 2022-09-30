@@ -1,14 +1,26 @@
 import React from "react";
-import { FaAmazon, FaApple,  FaGoogle, FaTwitter } from "react-icons/fa";
+import { FaAmazon, FaApple, FaGoogle, FaTwitter } from "react-icons/fa";
 import { RiHomeLine } from "react-icons/ri";
 import { FiUser } from "react-icons/fi";
 import { AiOutlineCreditCard } from "react-icons/ai";
 const Transaction = () => {
   return (
-    <div className="container flex flex-row justify-center items-center mt-24 bg-white">
-      <div className="flex flex-col mx-auto w-2/6">
-        <p className="text-sans font-semibold mt-8 text-start">Transaction</p>
-        <h1 className="text-sans font-semibold text-5xl text-start mt-2">
+    <div className=" flex flex-row justify-center items-center gap-32 mt-24 bg-white">
+      <div className="flex flex-col  w-[450px]">
+        <p
+          data-aos="flip-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="text-sans font-semibold mt-8 text-start"
+        >
+          Transaction
+        </p>
+        <h1
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="text-sans font-semibold text-5xl text-start mt-2"
+        >
           Send & receive <br /> money instantly
         </h1>
         <p className="text-sans text-start opacity-90 mt-6 font-semibold">
@@ -17,7 +29,12 @@ const Transaction = () => {
           veniam consequat sunt nostrud amet.
         </p>
         <div className="text-start mt-4">
-          <div className="flex text-sans font-semibold gap-2 my-1 items-center">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1200"
+            className="flex text-sans font-semibold gap-2 my-1 items-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -34,7 +51,12 @@ const Transaction = () => {
             </svg>
             <p>Malesuada Ipsum</p>
           </div>
-          <div className="flex text-sans font-semibold gap-2  my-1 items-center">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+            className="flex text-sans font-semibold gap-2  my-1 items-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -51,7 +73,12 @@ const Transaction = () => {
             </svg>
             <p>Vestibulum</p>
           </div>
-          <div className="flex text-sans font-semibold gap-2  my-1 items-center">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="linear"
+            data-aos-duration="1800"
+            className="flex text-sans font-semibold gap-2  my-1 items-center"
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -70,13 +97,26 @@ const Transaction = () => {
           </div>
         </div>
       </div>
-      <div className=" border-slate-800 mx-auto p-6" style={{borderRadius: "45px" , border: "6px solid"}}>
-        <div className="flex  justify-between items-center gap-4">
+      <div
+        className=" border-slate-800  p-6"
+        style={{ borderRadius: "45px", border: "6px solid" }}
+      >
+        <div
+          data-aos="zoom-in"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className="flex  justify-between items-center gap-4"
+        >
           <p className="font-semibold ">Current balance</p>
           <p className="font-bold text-xl">$4.658,50</p>
         </div>
 
-        <div className=" p-5 text-white  bg-slate-700 mt-4 rounded-xl ">
+        <div
+          data-aos="flip-up"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+          className=" p-5 text-white  bg-slate-700 mt-4 rounded-xl "
+        >
           <div className="flex   items-center gap-32">
             <h2 className="text-xl text-start">banquee.</h2>
             <svg
@@ -102,7 +142,9 @@ const Transaction = () => {
           </div>
           <div className="flex  items-center gap-6 ">
             <div>
-              <small className="text-start text-xs text-slate-300">Card Holder</small>
+              <small className="text-start text-xs text-slate-300">
+                Card Holder
+              </small>
               <p className="text-sm">John Doe</p>
             </div>
             <div>
@@ -177,87 +219,106 @@ const Transaction = () => {
           </div>
         </div>
         <div>
-        <div className='flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg'>
-                            <div className='flex justify-start items-center gap-5'>
-                                <div className='bg-primary text-white rounded-md p-3'>
-                                    <FaApple />
-                                </div>
-                                <div className='text-left'>
-                                    <p className='font-semibold'>Apple</p>
-                                    <small className="font-semibold">Electronic</small>
-                                </div>
-                            </div>
-                            <div className='text-left'>
-                                <p className='font-semibold'>-799$</p>
-                            </div>
-                        </div>
-                        <div className='flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg'>
-                            <div className='flex justify-start items-center gap-5'>
-                                <div className='bg-primary text-white rounded-md p-3'>
-                                    <FaGoogle />
-                                </div>
-                                <div className='text-left'>
-                                    <p className='font-semibold'>Google Play Store</p>
-                                    <small className="font-semibold">Apps</small>
-                                </div>
-                            </div>
-                            <div className='text-left'>
-                                <p className='font-semibold'>-49$</p>
-                            </div>
-                        </div>
-                        <div className='flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg'>
-                            <div className='flex justify-start items-center gap-5'>
-                                <div className='bg-primary text-white rounded-md p-3'>
-                                    <FaAmazon />
-                                </div>
-                                <div className='text-left'>
-                                    <p className='font-semibold'>Amazon</p>
-                                    <small className="font-semibold">Shopping</small>
-                                </div>
-                            </div>
-                            <div className='text-left'>
-                                <p className='font-semibold'>-59$</p>
-                            </div>
-                        </div>
-                        <div className='flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg'>
-                            <div className='flex justify-start items-center gap-5'>
-                                <div className='bg-primary text-white rounded-md p-3'>
-                                    <FaTwitter />
-                                </div>
-                                <div className='text-left'>
-                                    <p className='font-semibold'>Twitter</p>
-                                    <small className="font-semibold">Ads</small>
-                                </div>
-                            </div>
-                            <div className='text-left'>
-                                <p className='font-semibold'>-9$</p>
-                            </div>
-                        </div>
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1200" className="flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg">
+            <div className="flex justify-start items-center gap-5">
+              <div className="bg-primary text-white rounded-md p-3">
+                <FaApple />
+              </div>
+              <div className="text-left">
+                <p className="font-semibold">Apple</p>
+                <small className="font-semibold">Electronic</small>
+              </div>
+            </div>
+            <div className="text-left">
+              <p className="font-semibold">-799$</p>
+            </div>
+          </div>
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg">
+            <div className="flex justify-start items-center gap-5">
+              <div className="bg-primary text-white rounded-md p-3">
+                <FaGoogle />
+              </div>
+              <div className="text-left">
+                <p className="font-semibold">Google Play Store</p>
+                <small className="font-semibold">Apps</small>
+              </div>
+            </div>
+            <div className="text-left">
+              <p className="font-semibold">-49$</p>
+            </div>
+          </div>
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1800" className="flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg">
+            <div className="flex justify-start items-center gap-5">
+              <div className="bg-primary text-white rounded-md p-3">
+                <FaAmazon />
+              </div>
+              <div className="text-left">
+                <p className="font-semibold">Amazon</p>
+                <small className="font-semibold">Shopping</small>
+              </div>
+            </div>
+            <div className="text-left">
+              <p className="font-semibold">-59$</p>
+            </div>
+          </div>
+          <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="2000" className="flex justify-between items-center gap-4 my-5 bg-secondary p-2 rounded-lg">
+            <div className="flex justify-start items-center gap-5">
+              <div className="bg-primary text-white rounded-md p-3">
+                <FaTwitter />
+              </div>
+              <div className="text-left">
+                <p className="font-semibold">Twitter</p>
+                <small className="font-semibold">Ads</small>
+              </div>
+            </div>
+            <div className="text-left">
+              <p className="font-semibold">-9$</p>
+            </div>
+          </div>
         </div>
         <div>
-        <div className='flex justify-around py-1'>
-                            <div className=' text-primary flex flex-col justify-center items-center'>
-                                <RiHomeLine />
-                                <p className="font-semibold text-sm">Home</p>
-                            </div>
-                            <div className='flex flex-col justify-center items-center'>
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                </svg>
-                                <p className="font-semibold text-sm">Savings</p>
-                            </div>
-                            <div className='flex flex-col justify-center items-center'>
-                                <AiOutlineCreditCard />
-                                <p className="font-semibold text-sm">Cards</p>
-                            </div>
-                            <div className='flex flex-col justify-center items-center'>
-                                <FiUser />
-                                <p className="font-semibold text-sm">Account</p>
-                            </div>
-                        </div>
-
+          <div data-aos="zoom-in"
+        data-aos-easing="linear"
+        data-aos-duration="2000" className="flex justify-around py-1">
+            <div className=" text-primary flex flex-col justify-center items-center">
+              <RiHomeLine />
+              <p className="font-semibold text-sm">Home</p>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="w-5 h-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <p className="font-semibold text-sm">Savings</p>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <AiOutlineCreditCard />
+              <p className="font-semibold text-sm">Cards</p>
+            </div>
+            <div className="flex flex-col justify-center items-center">
+              <FiUser />
+              <p className="font-semibold text-sm">Account</p>
+            </div>
+          </div>
         </div>
-
       </div>
     </div>
   );

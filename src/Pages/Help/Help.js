@@ -1,20 +1,24 @@
 import React from "react";
-import Collapsible from "react-collapsible";
+
 
 const Help = () => {
   return (
-    <div className="my-24 flex  justify-center items-center">
-      <div className=" space-y-8  mx-auto">
-        <h1 className="font-bold text-4xl text-start">Need Help?</h1>
+    <div className="my-32 flex  justify-center gap-96 items-center">
+      <div className=" space-y-8 ">
+        <h1 data-aos="flip-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="font-bold text-4xl text-start">Need Help?</h1>
 
-        <div className="flex gap-4 justify-start items-center">
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1200" className="flex gap-4 justify-start items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6 p-1 rounded-full bg-green-300 text-white"
+            class="w-10 h-10 p-2 rounded-full bg-secondary text-primary"
           >
             <path
               stroke-linecap="round"
@@ -27,14 +31,16 @@ const Help = () => {
             <p className=" font-medium opacity-80 text-xs">Support Hotline</p>
           </div>
         </div>
-        <div className="flex gap-4 justify-start items-center">
+        <div data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1500" className="flex gap-4 justify-start items-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 24 24"
             stroke-width="1.5"
             stroke="currentColor"
-            class="w-6 h-6 p-1 rounded-full bg-green-300 text-white"
+            class="w-10 h-10 p-2 rounded-full bg-secondary text-primary"
           >
             <path
               stroke-linecap="round"
@@ -67,13 +73,15 @@ const Help = () => {
           </svg>
         </div>
       </div>
-      <div className=" space-y-2 mx-auto">
-        <details class="bg-gray-100 w-[400px] duration-100 space-y-4 mx-auto">
-          <summary class="bg-inherit text-start pl-2 py-1 text-lg cursor-pointer">
+      <div className=" space-y-3 ">
+        <details data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="800" class="border-b-2 border-slate-200 w-[320px] duration-100 space-y-4 mx-auto">
+          <summary class="font-medium text-start pl-2 py-1 text-lg cursor-pointer">
           How do I open an Banko account?
           </summary>
-          <div class="bg-white px-5 py-3 w-[400px] border  border-gray-100 text-sm font-light">
-            <p>
+          <div class="bg-white  w-[320px] border  border-gray-100 text-sm font-light">
+            <p className="font-medium opacity-80 text-start pl-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
               accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis
@@ -81,12 +89,14 @@ const Help = () => {
             </p>
           </div>
         </details>
-        <details class="bg-gray-100 w-[400px] duration-100 space-y-4 mx-auto">
-          <summary class="bg-inherit text-start pl-2 py-1 text-lg cursor-pointer">
+        <details data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1000" class="border-b-2 border-slate-200 w-[320px] duration-100 space-y-4 mx-auto">
+          <summary class="font-medium text-start pl-2 py-1 text-lg cursor-pointer">
           How do I order a new card?
           </summary>
-          <div class="bg-white px-5 py-3 w-[400px] border  border-gray-100 text-sm font-light">
-            <p>
+          <div class="bg-white px-5 py-3 w-[320px] border  border-gray-100 text-sm font-light">
+            <p className="font-medium opacity-80 text-start pl-2 ">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
               accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis
@@ -94,12 +104,14 @@ const Help = () => {
             </p>
           </div>
         </details>
-        <details class="bg-gray-100 w-[400px] duration-100 space-y-4 mx-auto">
-          <summary class="bg-inherit text-start pl-2 py-1 text-lg cursor-pointer">
+        <details data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1200" class="border-b-2 border-slate-200 w-[320px] duration-100 space-y-4 mx-auto">
+          <summary class="font-medium text-start pl-2 py-1 text-lg cursor-pointer">
           How to change my account limits?
           </summary>
-          <div class="bg-white px-5 py-3 w-[400px] border  border-gray-100 text-sm font-light">
-            <p>
+          <div class="bg-white px-5 py-3 w-[320px] border  border-gray-100 text-sm font-light">
+            <p className="font-medium opacity-80 text-start pl-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
               accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis
@@ -107,12 +119,14 @@ const Help = () => {
             </p>
           </div>
         </details>
-        <details class="bg-gray-100 w-[400px] duration-100 space-y-4 mx-auto">
-          <summary class="bg-inherit text-start pl-2 py-1 text-lg cursor-pointer">
+        <details data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1400" class="border-b-2 border-slate-200 w-[320px] duration-100 space-y-4 mx-auto">
+          <summary class="font-medium text-start pl-2 py-1 text-lg cursor-pointer">
           How does Banko premium works?
           </summary>
-          <div class="bg-white px-5 py-3 w-[400px] border  border-gray-100 text-sm font-light">
-            <p>
+          <div class="bg-white px-5 py-3 w-[320px] border  border-gray-100 text-sm font-light">
+            <p className="font-medium opacity-80 text-start pl-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
               accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis
@@ -120,12 +134,14 @@ const Help = () => {
             </p>
           </div>
         </details>
-        <details class="bg-gray-100 w-[400px] duration-100 space-y-4 mx-auto">
-          <summary class="bg-inherit text-start pl-2 py-1 text-lg cursor-pointer">
+        <details data-aos="fade-up"
+        data-aos-easing="linear"
+        data-aos-duration="1600" class="border-b-2 border-slate-200 w-[320px] duration-100 space-y-4 mx-auto">
+          <summary class="font-medium text-start pl-2 py-1 text-lg cursor-pointer">
           Can I have two Banko accounts?
           </summary>
-          <div class="bg-white px-5 py-3 w-[400px] border  border-gray-100 text-sm font-light">
-            <p>
+          <div class="bg-white px-5 py-3 w-[320px] border  border-gray-100 text-sm font-light">
+            <p className="font-medium opacity-80 text-start pl-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
               accumsan sit amet nulla facilisi morbi. Eget gravida cum sociis
