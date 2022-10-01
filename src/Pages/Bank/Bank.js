@@ -16,7 +16,7 @@ const Bank = () => {
           duis ut diam.
         </p>
       </div>
-      <div className="flex justify-center gap-40 mt-12 items-center flex-row overflow-hidden ">
+      <div className="flex justify-center gap-40 mt-12 items-center flex-col lg:flex-row overflow-hidden ">
         <div className="rounded-xl px-8 pt-8 bg-secondary w-96 -mb-20 ">
           <div className="flex justify-center items-center flex-col">
             <p data-aos="flip-up"
@@ -30,7 +30,7 @@ const Bank = () => {
           </div>
           <div
             className=" border-slate-800 mx-auto p-6 mt-8 bg-white"
-            style={{ borderRadius: "45px", border: "6px solid" }}
+            style={{ borderTopRightRadius: "45px",borderTopLeftRadius: "45px", border: "6px solid" , borderBottom: "none" }}
           >
             <div data-aos="zoom-in"
         data-aos-easing="linear"

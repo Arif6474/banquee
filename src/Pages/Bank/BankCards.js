@@ -14,7 +14,7 @@ import laptop from "../../images/laptop-removebg-preview.png";
 import { FaAmazon, FaApple, FaGoogle } from "react-icons/fa";
 const BankCards = () => {
   return (
-    <div className="flex justify-center gap-4 mt-12 items-center flex-row  p-4">
+    <div className="flex justify-center gap-4 mt-12 items-center flex-col lg:flex-row  p-4">
       <div className="bg-secondary  w-[300px] rounded-xl">
         <div className="flex justify-start p-8  flex-col">
           <p

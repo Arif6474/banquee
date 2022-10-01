@@ -3,7 +3,7 @@ import React from "react";
 
 const Help = () => {
   return (
-    <div className="my-32 flex  justify-center gap-96 items-center">
+    <div className="my-32 flex flex-col lg:flex-row justify-center gap-40 lg:gap-96 items-center">
       <div className=" space-y-8 ">
         <h1 data-aos="flip-up"
         data-aos-easing="linear"

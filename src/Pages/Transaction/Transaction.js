@@ -5,8 +5,8 @@ import { FiUser } from "react-icons/fi";
 import { AiOutlineCreditCard } from "react-icons/ai";
 const Transaction = () => {
   return (
-    <div className=" flex flex-row justify-center items-center gap-32 mt-24 bg-white">
-      <div className="flex flex-col  w-[450px]">
+    <div className=" flex flex-col lg:flex-row justify-center items-center gap-40  mt-24 bg-white">
+      <div className="flex flex-col p-4 ">
         <p
           data-aos="flip-up"
           data-aos-easing="linear"
@@ -19,11 +19,11 @@ const Transaction = () => {
           data-aos="zoom-in"
           data-aos-easing="linear"
           data-aos-duration="1500"
-          className="text-sans font-semibold text-5xl text-start mt-2"
+          className="text-sans font-semibold text-4xl text-start mt-2"
         >
           Send & receive <br /> money instantly
         </h1>
-        <p className="text-sans text-start opacity-90 mt-6 font-semibold">
+        <p className="text-sans w-[300px] lg:w-[450px] text-start opacity-90 mt-6 font-semibold">
           Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
           sint. Velit officia consequat duis enim velit mollit. Exercitation
           veniam consequat sunt nostrud amet.
@@ -98,7 +98,7 @@ const Transaction = () => {
         </div>
       </div>
       <div
-        className=" border-slate-800  p-6"
+        className=" border-slate-800  p-6 "
         style={{ borderRadius: "45px", border: "6px solid" }}
       >
         <div

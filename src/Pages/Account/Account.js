@@ -15,7 +15,7 @@ const Account = () => {
           duis ut diam.
         </p>
       </div>
-      <div className="mt-12 flex justify-center gap-8  items-center flex-row mx-48 p-4">
+      <div className="mt-12 flex justify-center gap-8  items-center flex-col lg:flex-row lg:mx-48 p-4">
         <div className="w-80">
             <div className="flex justify-center items-center gap-2">
                 <p className="font-bold text-lg">Basic <span className="p-1 rounded-md text-xs bg-secondary text-primary">Popular</span></p>
